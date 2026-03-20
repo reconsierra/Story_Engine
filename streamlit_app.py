@@ -4,6 +4,8 @@ from pathlib import Path
 
 import streamlit as st
 
+from engine.brief_generator import generate_story_brief
+
 from engine.resolver import resolve, save_preset_from_diff
 
 REPO_ROOT = Path(__file__).parent
@@ -111,6 +113,29 @@ st.download_button(
     file_name=f"resolved_{genre}_{preset}.json",
     mime="application/json",
 )
+
+
+st.divider()
+st.subheader("Story brief (generated from resolved config)")
+
+brief = generate_story_brief(resolved=resolved, genre=genre, preset=preset)
+
+st.markdown(brief.markdown)
+
+st.download_button(
+    "Download story brief (Markdown)",
+    data=brief.markdown.encode("utf-8"),
+    file_name=f"story_brief_{genre}_{preset}.md",
+    mime="text/markdown",
+)
+
+st.download_button(
+    "Download story brief (JSON)",
+    data=json.dumps(brief.data, indent=2).encode("utf-8"),
+    file_name=f"story_brief_{genre}_{preset}.json",
+    mime="application/json",
+)
+
 
 st.divider()
 
