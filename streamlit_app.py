@@ -6,6 +6,8 @@ import streamlit as st
 
 from engine.brief_generator import generate_story_brief
 
+from engine.authoring_pack import build_authoring_pack, pack_to_zip_bytes
+
 from engine.resolver import resolve, save_preset_from_diff
 
 REPO_ROOT = Path(__file__).parent
@@ -112,6 +114,32 @@ st.download_button(
     data=json.dumps(resolved, indent=2).encode("utf-8"),
     file_name=f"resolved_{genre}_{preset}.json",
     mime="application/json",
+)
+
+st.divider()
+st.subheader("Authoring pack (brief → outline → manuscript scaffold)")
+
+pack = build_authoring_pack(resolved=resolved, preset=preset)
+
+st.markdown("### Story brief preview")
+st.markdown(pack.brief_md)
+
+with st.expander("Outline preview", expanded=False):
+    st.markdown(pack.outline_md)
+
+with st.expander("Manuscript scaffold preview", expanded=False):
+    st.markdown(pack.scaffold_md)
+
+with st.expander("Authoring prompt (copy/paste into your authoring tool)", expanded=False):
+    st.markdown(pack.prompt_md)
+
+zip_bytes = pack_to_zip_bytes(pack, resolved)
+
+st.download_button(
+    "Download authoring pack (ZIP)",
+    data=zip_bytes,
+    file_name=f"authoring_pack_{genre}_{preset}.zip",
+    mime="application/zip",
 )
 
 
