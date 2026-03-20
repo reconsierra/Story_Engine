@@ -1,0 +1,1 @@
+{  "preset_id": "balanced",  "label": "Balanced Narrative",  "description": "Even rhythm and broad appeal.",  "overrides": {    "pacing_structure.scene_failure_rate": "medium",    "information_control.internal_external_ratio": "50_50"  }}

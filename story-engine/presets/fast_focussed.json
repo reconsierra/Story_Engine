@@ -1,0 +1,1 @@
+{  "preset_id": "fast_focused",  "label": "Fast & Focused",  "description": "Tight pacing with clarity and momentum.",  "overrides": {    "pressure_and_flow.time_pressure": "hard_deadline",    "pressure_and_flow.recovery_time": "brief",    "tone_and_language.sentence_style": "short_punchy"  }}

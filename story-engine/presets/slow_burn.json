@@ -1,0 +1,1 @@
+{  "preset_id": "slow_burn",  "label": "Slow Burn",  "description": "Gradual escalation and atmosphere.",  "overrides": {    "information_control.internal_external_ratio": "30_external_70_internal",    "pressure_and_flow.recovery_time": "extended",    "tone_and_language.moral_ambiguity": "grey_choices"  }}

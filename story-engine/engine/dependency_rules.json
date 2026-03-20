@@ -1,0 +1,21 @@
+
+[
+  {
+    "if": {
+      "pacing_structure.protagonist_competence": "highly_competent",
+      "pacing_structure.scene_failure_rate": "high"
+    },
+    "then": {
+      "pacing_structure.scene_failure_rate": "medium"
+    }
+  },
+  {
+    "if": {
+      "pressure_and_flow.time_pressure": "countdown",
+      "pressure_and_flow.recovery_time": "extended"
+    },
+    "then": {
+      "pressure_and_flow.recovery_time": "brief"
+    }
+  }
+]

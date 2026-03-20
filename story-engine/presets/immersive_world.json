@@ -1,0 +1,1 @@
+{  "preset_id": "immersive_world",  "label": "Immersive World",  "description": "Depth, scope, and layered plots.",  "overrides": {    "pacing_structure.setting_confinement": "expansive_world",    "viewpoint.parallel_plot_threads": "multi_thread",    "tone_and_language.sentence_style": "long_lyrical"  }}

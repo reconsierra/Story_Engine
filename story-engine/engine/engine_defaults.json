@@ -1,0 +1,25 @@
+
+{
+  "genre:adventure": {
+    "pacing_structure.protagonist_competence": "learning",
+    "pacing_structure.scene_failure_rate": "medium",
+    "pacing_structure.setting_confinement": "limited_locations",
+    "pacing_structure.act_weighting": "front_loaded",
+    "pressure_and_flow.time_pressure": "soft_deadline"
+  },
+  "genre:mystery": {
+    "pacing_structure.act_weighting": "mid_heavy",
+    "information_control.clue_transparency": "reader_knows_less",
+    "information_control.mystery_stack_depth": "core_plus_one"
+  },
+  "genre:military": {
+    "pacing_structure.protagonist_competence": "highly_competent",
+    "pressure_and_flow.time_pressure": "hard_deadline",
+    "tone_and_language.sentence_style": "short_punchy"
+  },
+  "genre:drama": {
+    "pacing_structure.protagonist_competence": "flawed_hesitant",
+    "pressure_and_flow.recovery_time": "extended",
+    "tone_and_language.sentence_style": "long_lyrical"
+  }
+}
