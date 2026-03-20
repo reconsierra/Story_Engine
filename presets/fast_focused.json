@@ -1,0 +1,13 @@
+{
+  "preset_id": "fast_focused",
+  "label": "Fast & Focused",
+  "description": "Tight pacing with clarity and momentum, without constant escalation.",
+  "overrides": {
+    "pacing_structure.scene_failure_rate": "medium",
+    "pacing_structure.turning_points": "standard",
+    "pressure_and_flow.time_pressure": "hard_deadline",
+    "pressure_and_flow.recovery_time": "brief",
+    "tone_and_language.sentence_style": "short_punchy",
+    "tone_and_language.dialogue_ratio": "balanced"
+  }
+}

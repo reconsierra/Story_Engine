@@ -1,0 +1,20 @@
+{
+  "story_type:mission_based": {
+    "pressure_and_flow.time_pressure": "hard_deadline",
+    "pressure_and_flow.recovery_time": "none",
+    "pacing_structure.turning_points": "high_frequency"
+  },
+  "story_type:revenge": {
+    "tone_and_language.moral_ambiguity": "grey_choices",
+    "pressure_and_flow.stakes_escalation": "midpoint_spike",
+    "pressure_and_flow.recovery_time": "brief"
+  },
+  "story_type:protecting_family": {
+    "pressure_and_flow.time_pressure": "hard_deadline",
+    "pressure_and_flow.stakes_escalation": "stair_step"
+  },
+  "story_type:theft_of_item": {
+    "pacing_structure.turning_points": "high_frequency",
+    "pressure_and_flow.travel_compression": "cut_to_scene"
+  }
+}

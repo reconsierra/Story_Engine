@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "engine_mode": "default",
+    "notes": "Defaults are genre-aware and deterministic. No randomness unless you explicitly add it later. UI should treat null as Auto (engine default)."
+  },
+  "identity": {
+    "genre": {
+      "value": null,
+      "allowed": [
+        "adventure",
+        "mystery",
+        "military",
+        "drama"
+      ]
+    },
+    "main_character": {
+      "value": null,
+      "allowed": [
+        "traveling_loner",
+        "active_military",
+        "ex_spec_ops",
+        "white_collar_manager",
+        "blue_collar_tradesman",
+        "it_tech"
+      ]
+    },
+    "secondary_character": {
+      "value": null,
+      "allowed": [
+        "naive_no_street_smarts",
+        "active_military",
+        "ex_spec_ops",
+        "white_collar_worker",
+        "blue_collar_tradesman",
+        "it_specialist",
+        "genius_problem_solver"
+      ]
+    },
+    "relationship_main_secondary": {
+      "value": null,
+      "allowed": [
+        "friendly",
+        "good_mates",
+        "combat_forged",
+        "troubled",
+        "competitive",
+        "relaxed"
+      ]
+    }
+  },
+  "antagonist": {
+    "relationship_to_protagonist": {
+      "value": null,
+      "allowed": [
+        "old_friend",
+        "old_colleague",
+        "former_military_contact",
+        "has_dirt_on_main",
+        "has_dirt_on_secondary",
+        "jealous_of_main"
+      ]
+    },
+    "motivation": {
+      "value": null,
+      "allowed": [
+        "high_level_terrorism",
+        "local_troublemaker",
+        "wannabe_kingpin",
+        "revenge",
+        "financial_bribery",
+        "targeting_high_tech_item"
+      ]
+    }
+  },
+  "story_engine": {
+    "story_type": {
+      "value": null,
+      "allowed": [
+        "mission_based",
+        "adventure_reward",
+        "defeat_antagonist",
+        "neighbourhood_dispute",
+        "protecting_family",
+        "protecting_client",
+        "revenge",
+        "theft_of_item",
+        "hostile_takeover_plot"
+      ]
+    },
+    "contact_types": {
+      "value": null,
+      "allowed": [
+        "weapons",
+        "threats",
+        "bribery_blackmail",
+        "kidnapping",
+        "martial_arts",
+        "wmd"
+      ]
+    },
+    "complications": {
+      "value": null,
+      "allowed": [
+        "unknown_secondary_antagonist",
+        "competitive_threats",
+        "weather",
+        "natural_disaster",
+        "terrain_constraints"
+      ]
+    }
+  },
+  "pacing_structure": {
+    "protagonist_competence": {
+      "value": null,
+      "allowed": [
+        "highly_competent",
+        "learning",
+        "flawed_hesitant"
+      ]
+    },
+    "scene_failure_rate": {
+      "value": null,
+      "allowed": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "setting_confinement": {
+      "value": null,
+      "allowed": [
+        "single_location",
+        "limited_locations",
+        "expansive_world"
+      ]
+    },
+    "act_weighting": {
+      "value": null,
+      "allowed": [
+        "front_loaded",
+        "mid_heavy",
+        "back_loaded"
+      ]
+    },
+    "turning_points": {
+      "value": null,
+      "allowed": [
+        "minimal",
+        "standard",
+        "high_frequency"
+      ]
+    },
+    "resolution_speed": {
+      "value": null,
+      "allowed": [
+        "immediate",
+        "soft_landing",
+        "extended_fallout"
+      ]
+    }
+  },
+  "viewpoint": {
+    "pov_count": {
+      "value": null,
+      "allowed": [
+        "single",
+        "dual",
+        "multi"
+      ]
+    },
+    "parallel_plot_threads": {
+      "value": null,
+      "allowed": [
+        "single_thread",
+        "dual_thread",
+        "multi_thread"
+      ]
+    }
+  },
+  "information_control": {
+    "internal_external_ratio": {
+      "value": null,
+      "allowed": [
+        "80_external_20_internal",
+        "50_50",
+        "30_external_70_internal"
+      ]
+    },
+    "clue_transparency": {
+      "value": null,
+      "allowed": [
+        "reader_knows_more",
+        "reader_knows_same",
+        "reader_knows_less"
+      ]
+    },
+    "mystery_stack_depth": {
+      "value": null,
+      "allowed": [
+        "single_core",
+        "core_plus_one",
+        "core_plus_multiple"
+      ]
+    },
+    "reveal_granularity": {
+      "value": null,
+      "allowed": [
+        "big_reveals",
+        "incremental_reveals"
+      ]
+    }
+  },
+  "pressure_and_flow": {
+    "time_pressure": {
+      "value": null,
+      "allowed": [
+        "none",
+        "soft_deadline",
+        "hard_deadline",
+        "countdown"
+      ]
+    },
+    "travel_compression": {
+      "value": null,
+      "allowed": [
+        "realistic",
+        "skipped",
+        "cut_to_scene"
+      ]
+    },
+    "stakes_escalation": {
+      "value": null,
+      "allowed": [
+        "linear",
+        "midpoint_spike",
+        "stair_step"
+      ]
+    },
+    "recovery_time": {
+      "value": null,
+      "allowed": [
+        "none",
+        "brief",
+        "extended"
+      ]
+    }
+  },
+  "tone_and_language": {
+    "sentence_style": {
+      "value": null,
+      "allowed": [
+        "short_punchy",
+        "mixed",
+        "long_lyrical"
+      ]
+    },
+    "dialogue_ratio": {
+      "value": null,
+      "allowed": [
+        "dialogue_heavy",
+        "balanced",
+        "descriptive_heavy"
+      ]
+    },
+    "moral_ambiguity": {
+      "value": null,
+      "allowed": [
+        "clear_morality",
+        "grey_choices",
+        "no_good_options"
+      ]
+    }
+  },
+  "reader_experience": {
+    "intended_session_length": {
+      "value": null,
+      "allowed": [
+        "short_bursts",
+        "medium_sessions",
+        "long_form"
+      ]
+    }
+  }
+}

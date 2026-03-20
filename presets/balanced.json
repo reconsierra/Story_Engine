@@ -1,0 +1,12 @@
+{
+  "preset_id": "balanced",
+  "label": "Balanced Narrative",
+  "description": "Even rhythm with space for character, action, and reflection.",
+  "overrides": {
+    "pacing_structure.scene_failure_rate": "medium",
+    "information_control.internal_external_ratio": "50_50",
+    "pacing_structure.turning_points": "standard",
+    "pressure_and_flow.recovery_time": "brief",
+    "tone_and_language.dialogue_ratio": "balanced"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "preset_id": "relentless",
+  "label": "Relentless",
+  "description": "High-pressure, fast-moving story with constant escalation and minimal downtime.",
+  "overrides": {
+    "pacing_structure.scene_failure_rate": "high",
+    "pacing_structure.act_weighting": "back_loaded",
+    "pacing_structure.turning_points": "high_frequency",
+    "pressure_and_flow.time_pressure": "countdown",
+    "pressure_and_flow.recovery_time": "none",
+    "information_control.reveal_granularity": "incremental_reveals",
+    "tone_and_language.sentence_style": "short_punchy",
+    "tone_and_language.dialogue_ratio": "dialogue_heavy"
+  }
+}

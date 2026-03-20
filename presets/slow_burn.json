@@ -1,0 +1,14 @@
+{
+  "preset_id": "slow_burn",
+  "label": "Slow Burn",
+  "description": "Gradual escalation with focus on atmosphere, character, and moral tension.",
+  "overrides": {
+    "pacing_structure.scene_failure_rate": "medium",
+    "information_control.internal_external_ratio": "30_external_70_internal",
+    "pacing_structure.act_weighting": "mid_heavy",
+    "pressure_and_flow.time_pressure": "soft_deadline",
+    "pressure_and_flow.recovery_time": "extended",
+    "tone_and_language.dialogue_ratio": "descriptive_heavy",
+    "tone_and_language.moral_ambiguity": "grey_choices"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "preset_id": "immersive_world",
+  "label": "Immersive World",
+  "description": "Expansive storytelling with layered plots and rich environments.",
+  "overrides": {
+    "pacing_structure.setting_confinement": "expansive_world",
+    "viewpoint.parallel_plot_threads": "multi_thread",
+    "information_control.mystery_stack_depth": "core_plus_multiple",
+    "pressure_and_flow.recovery_time": "extended",
+    "tone_and_language.sentence_style": "long_lyrical",
+    "tone_and_language.dialogue_ratio": "balanced"
+  }
+}

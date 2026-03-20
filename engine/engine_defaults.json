@@ -1,0 +1,69 @@
+{
+  "baseline": {
+    "identity.main_character": "traveling_loner",
+    "identity.secondary_character": "genius_problem_solver",
+    "identity.relationship_main_secondary": "friendly",
+    "antagonist.relationship_to_protagonist": "old_colleague",
+    "antagonist.motivation": "financial_bribery",
+    "story_engine.story_type": "defeat_antagonist",
+    "story_engine.contact_types": "threats",
+    "story_engine.complications": "weather",
+    "pacing_structure.protagonist_competence": "learning",
+    "pacing_structure.scene_failure_rate": "medium",
+    "pacing_structure.setting_confinement": "limited_locations",
+    "pacing_structure.act_weighting": "mid_heavy",
+    "pacing_structure.turning_points": "standard",
+    "pacing_structure.resolution_speed": "soft_landing",
+    "viewpoint.pov_count": "single",
+    "viewpoint.parallel_plot_threads": "single_thread",
+    "information_control.internal_external_ratio": "50_50",
+    "information_control.clue_transparency": "reader_knows_same",
+    "information_control.mystery_stack_depth": "single_core",
+    "information_control.reveal_granularity": "incremental_reveals",
+    "pressure_and_flow.time_pressure": "soft_deadline",
+    "pressure_and_flow.travel_compression": "skipped",
+    "pressure_and_flow.stakes_escalation": "linear",
+    "pressure_and_flow.recovery_time": "brief",
+    "tone_and_language.sentence_style": "mixed",
+    "tone_and_language.dialogue_ratio": "balanced",
+    "tone_and_language.moral_ambiguity": "clear_morality",
+    "reader_experience.intended_session_length": "medium_sessions"
+  },
+  "genre:adventure": {
+    "pacing_structure.act_weighting": "front_loaded",
+    "information_control.internal_external_ratio": "80_external_20_internal",
+    "pressure_and_flow.time_pressure": "soft_deadline",
+    "pressure_and_flow.travel_compression": "cut_to_scene",
+    "pressure_and_flow.stakes_escalation": "stair_step"
+  },
+  "genre:mystery": {
+    "pacing_structure.act_weighting": "mid_heavy",
+    "information_control.clue_transparency": "reader_knows_less",
+    "information_control.mystery_stack_depth": "core_plus_one",
+    "pressure_and_flow.time_pressure": "soft_deadline",
+    "tone_and_language.moral_ambiguity": "grey_choices"
+  },
+  "genre:military": {
+    "identity.main_character": "active_military",
+    "pacing_structure.protagonist_competence": "highly_competent",
+    "pacing_structure.turning_points": "high_frequency",
+    "pacing_structure.act_weighting": "back_loaded",
+    "pressure_and_flow.time_pressure": "hard_deadline",
+    "pressure_and_flow.recovery_time": "brief",
+    "tone_and_language.sentence_style": "short_punchy",
+    "tone_and_language.dialogue_ratio": "dialogue_heavy",
+    "information_control.internal_external_ratio": "80_external_20_internal"
+  },
+  "genre:drama": {
+    "pacing_structure.protagonist_competence": "flawed_hesitant",
+    "pacing_structure.scene_failure_rate": "high",
+    "pacing_structure.turning_points": "minimal",
+    "pacing_structure.setting_confinement": "single_location",
+    "pressure_and_flow.time_pressure": "none",
+    "pressure_and_flow.recovery_time": "extended",
+    "information_control.internal_external_ratio": "30_external_70_internal",
+    "tone_and_language.sentence_style": "long_lyrical",
+    "tone_and_language.dialogue_ratio": "descriptive_heavy",
+    "tone_and_language.moral_ambiguity": "grey_choices"
+  }
+}

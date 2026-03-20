@@ -1,0 +1,13 @@
+{
+  "preset_id": "one_sitting",
+  "label": "One\u2011Sitting Read",
+  "description": "Designed for short sessions with frequent hooks and fast payoff.",
+  "overrides": {
+    "reader_experience.intended_session_length": "short_bursts",
+    "pacing_structure.turning_points": "high_frequency",
+    "pressure_and_flow.recovery_time": "none",
+    "information_control.reveal_granularity": "incremental_reveals",
+    "tone_and_language.sentence_style": "short_punchy",
+    "tone_and_language.dialogue_ratio": "dialogue_heavy"
+  }
+}

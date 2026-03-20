@@ -1,0 +1,42 @@
+[
+  {
+    "if": {
+      "pacing_structure.protagonist_competence": "highly_competent",
+      "pacing_structure.scene_failure_rate": "high"
+    },
+    "then": {
+      "pacing_structure.scene_failure_rate": "medium"
+    },
+    "reason": "Highly competent protagonists can fail, but constant failure undermines competence."
+  },
+  {
+    "if": {
+      "pressure_and_flow.time_pressure": "countdown",
+      "pressure_and_flow.recovery_time": "extended"
+    },
+    "then": {
+      "pressure_and_flow.recovery_time": "brief"
+    },
+    "reason": "Countdown pacing cannot support extended downtime."
+  },
+  {
+    "if": {
+      "viewpoint.parallel_plot_threads": "multi_thread",
+      "viewpoint.pov_count": "single"
+    },
+    "then": {
+      "viewpoint.pov_count": "dual"
+    },
+    "reason": "Multiple threads generally need more than one POV to remain coherent."
+  },
+  {
+    "if": {
+      "pacing_structure.setting_confinement": "single_location",
+      "pressure_and_flow.travel_compression": "cut_to_scene"
+    },
+    "then": {
+      "pressure_and_flow.travel_compression": "skipped"
+    },
+    "reason": "If you're in one location, travel compression is irrelevant."
+  }
+]

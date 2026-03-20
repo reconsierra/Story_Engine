@@ -1,0 +1,7 @@
+{
+  "genre": "military",
+  "preset": "slow_burn",
+  "overrides": {
+    "pacing_structure.protagonist_competence": "flawed_hesitant"
+  }
+}
