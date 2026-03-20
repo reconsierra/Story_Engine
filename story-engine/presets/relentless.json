@@ -1,1 +1,0 @@
-{  "preset_id": "relentless",  "label": "Relentless",  "description": "High-pressure, fast-moving story.",  "overrides": {    "pacing_structure.scene_failure_rate": "high",    "pressure_and_flow.time_pressure": "countdown",    "tone_and_language.sentence_style": "short_punchy",    "tone_and_language.dialogue_ratio": "dialogue_heavy"  }}

@@ -1,1 +1,0 @@
-{  "preset_id": "one_sitting",  "label": "One-Sitting Read",  "description": "Short sessions and frequent hooks.",  "overrides": {    "reader_experience.intended_session_length": "short_bursts",    "pacing_structure.turning_points": "high_frequency",    "pressure_and_flow.recovery_time": "none"  }}
