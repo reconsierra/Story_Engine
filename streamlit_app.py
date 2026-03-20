@@ -1,10 +1,9 @@
+import json
+from pathlib import Path
 
-    import json
-    from pathlib import Path
+import streamlit as st
 
-    import streamlit as st
-
-    from engine.resolver import resolve, save_preset_from_diff
+from engine.resolver import resolve, save_preset_from_diff
 
 
     REPO_ROOT = Path(__file__).parent
